@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -41,7 +40,7 @@ namespace McDonalds
 
 
                     SqlConnection con = new SqlConnection(str);
- 
+
                     SqlCommand cmd = new SqlCommand(query, con);
 
 
@@ -75,7 +74,7 @@ namespace McDonalds
 
 
             }
-    
+
         }
 
         private void btn_clear_Click(object sender, EventArgs e)
